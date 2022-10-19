@@ -7,13 +7,13 @@ A serverless function that can run [**mugda.sexp**](https://github.com/cicada-la
 Run a file:
 
 ```bash
-curl https://cic.run --data-binary @docs/tests/basic/let.cic
+curl https://mu.cic.run --data-binary @docs/tests/basic/let.cic
 ```
 
 Run multiline text (bash and zsh):
 
 ```bash
-curl https://cic.run --data-binary @- << END
+curl https://mu.cic.run --data-binary @- << END
 
 function id(T: Type, x: T): T {
   return x
