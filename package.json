@@ -4,7 +4,7 @@
     "format": "prettier api --write"
   },
   "dependencies": {
-    "@cicada-lang/cicada": "^0.8.7",
+    "@cicada-lang/mugda.sexp": "^0.1.1",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "node-fetch": "^2.6.7"
