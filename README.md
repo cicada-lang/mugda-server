@@ -1,6 +1,6 @@
-# Cicada Server
+# Mugda Server
 
-A serverless function that can run [**cicada**](https://github.com/cicada-lang/cicada) code.
+A serverless function that can run [**mugda.sexp**](https://github.com/cicada-lang/mugda.sexp) code.
 
 ## Usage
 
