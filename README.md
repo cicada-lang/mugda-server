@@ -23,7 +23,9 @@ curl https://mu.cic.run --data-binary @- << END
   [(x (zero)) x]
   [(x (add1 y)) (add1 (add x y))])
 
-(add (add1 zero) (add1 zero))
+(define one Nat (add1 zero))
+
+(add one one)
 
 END
 ```
