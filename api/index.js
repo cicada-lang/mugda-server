@@ -11,10 +11,10 @@ app.post(
   "/",
   asyncHandler(async (req, res) => {
     const text = req.body
-    const url = new URL("cicada-server://")
+    const url = new URL("mugda-server://")
     const loader = new Loader({})
 
-    loader.fetcher.register("cicada-server", (url) => "")
+    loader.fetcher.register("mugda-server", (url) => "")
 
     try {
       const mod = await loader.load(url, { text })
