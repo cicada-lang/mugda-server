@@ -16,8 +16,8 @@ Run multiline text (bash and zsh):
 curl https://mu.cic.run --data-binary @- << END
 
 (data Nat () ()
-  (zero () Nat)
-  (add1 ([prev Nat]) Nat))
+  [zero () Nat]
+  [add1 ([prev Nat]) Nat])
 
 (fn add (-> Nat Nat Nat)
   [(x (zero)) x]
