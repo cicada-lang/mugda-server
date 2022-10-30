@@ -7,7 +7,7 @@ A serverless function that can run [**mugda**](https://github.com/cicada-lang/mu
 Run a file:
 
 ```bash
-curl https://mu.cic.run --data-binary @tests/basic/let.test.mu
+curl https://mu.cic.run --data-binary @<file>
 ```
 
 Run multiline text (bash and zsh):
