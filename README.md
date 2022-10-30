@@ -13,7 +13,7 @@ curl https://mu.cic.run --data-binary @<file>
 Run multiline text (bash and zsh):
 
 ```bash
-curl https://mu.cic.run --data-binary @- << END
+curl https://mu.cic.run --data-binary @-<< END
 
 (data Nat () ()
   [zero () Nat]
